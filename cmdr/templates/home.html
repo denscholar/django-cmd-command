@@ -1,0 +1,10 @@
+<h2>Important Command to remember</h2>
+
+<ul>
+    {% for cmdr in object_list %}
+    <li>
+        <input type="radio" id="f-option" name="selector">
+        <label for="f-option">{{cmdr}}</label>
+    </li>
+    {% endfor %}
+</ul>
